@@ -1,0 +1,48 @@
+= API DOC
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toclevels: 2
+:toc: left
+:sectlinks:
+:snippets: D:/workspace/intellij/chicken_project/build/generated-snippets
+
+== 목표 생성
+
+=== 요청
+include::{snippets}/goal-create/http-request.adoc[]
+include::{snippets}/goal-create/request-fields.adoc[]
+
+=== 응답
+include::{snippets}/goal-create/http-response.adoc[]
+
+== 목표 단건 조회
+
+=== 요청
+include::{snippets}/goal-search-one/http-request.adoc[]
+include::{snippets}/goal-search-one/path-parameters.adoc[]
+
+=== 응답
+include::{snippets}/goal-search-one/http-response.adoc[]
+
+== 목표 조회 오류(존재하지 않는 항목 조회)
+
+=== 응답
+include::{snippets}/found-error/response-body.adoc[]
+
+== 목표 수정
+
+=== 요청
+include::{snippets}/goal-update/http-request.adoc[]
+include::{snippets}/goal-update/path-parameters.adoc[]
+include::{snippets}/goal-update/request-fields.adoc[]
+
+=== 응답
+include::{snippets}/goal-update/http-response.adoc[]
+
+== 목표 삭제
+include::{snippets}/goal-delete/http-request.adoc[]
+include::{snippets}/goal-delete/path-parameters.adoc[]
+
+=== 응답
+include::{snippets}/goal-delete/http-response.adoc[]
