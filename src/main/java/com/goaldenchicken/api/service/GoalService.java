@@ -59,4 +59,9 @@ public class GoalService {
 
         goalRepository.delete(goal);
     }
+
+    @Transactional(readOnly = true)
+    public void testMethod() {
+        // git feature branch test
+    }
 }
